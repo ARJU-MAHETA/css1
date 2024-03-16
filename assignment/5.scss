@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    padding: 30px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.content{
+    .image_box{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap:30px;
+        
+    }
+    .gallery{
+        
+        
+    .text{
+        background-color: azure;
+        font-size: 15px;
+        
+    }    
+    .btn{
+        margin: 10px;
+        height: 30px;
+        background-color: aliceblue;
+        width: 100px;
+    }
+    }
+    
+}
